@@ -31,3 +31,57 @@ body, html {
     padding: 20px;
     text-align: center;
 }
+
+.me-img{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.big-text{
+    font-family: "Courier New", fantasy;
+    font-size: 20px;
+}
+
+
+#right-text{
+    padding-left: 30%;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+#left-text{
+    padding-right: 30%;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.me-img img{
+    border-radius: 5px;
+    height: 400px;
+    width: auto;
+}
+
+.prog-languages{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.prog-languages img{
+    border-radius: 5px;
+    height: 400px;
+    width: auto;
+}
+
+#center-text{
+    padding-top: 10px;
+    border-top: 3px dotted lightgray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
