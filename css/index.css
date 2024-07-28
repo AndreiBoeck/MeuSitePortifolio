@@ -199,7 +199,6 @@ body, html {
     left: 93%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-color: transparent;
 }
 
 .button {
@@ -207,7 +206,6 @@ body, html {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background-color: transparent;
     border: none;
     position: relative;
     z-index: 0;
@@ -219,30 +217,34 @@ body, html {
     transition: all 0.1s;
 }
 
-.button:nth-child(1)::before{
-    background: rgb(17, 18, 13);
+
+#insta{
+   background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
 }
 
-.button:nth-child(2)::before{
-    background: rgb(17, 18, 13);
-}
-
-.button:nth-child(3)::before{
-    background: rgb(17, 18, 13);
-}
-
-.button:nth-child(1):hover{
-    opacity: 100%;
-    background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);;
-}
-
-.button:nth-child(2):hover{
+#linkedin{
     opacity: 100%;
     background: rgb(0, 65, 130);
 }
 
-.button:nth-child(3):hover{
+#github{
     opacity: 100%;
+    background: rgb(20, 34, 30);
+}
+
+#insta:before, #linkedin:before, #github:before{
+    background-color: rgb(17, 18, 13);
+}
+
+#insta:hover{
+    background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+}
+
+#linkedin:hover{
+    background: rgb(0, 65, 130);
+}
+
+#github:hover{
     background: rgb(20, 34, 30);
 }
 
@@ -261,7 +263,6 @@ body, html {
     position: absolute;
     width: 55px;
     height: 55px;
-    background-color: transparent;
     border-radius: 50px;
     z-index: -1;
     border: 0 solid rgba(255, 255, 255, 0.411);
@@ -295,6 +296,7 @@ body, html {
     }
 
     .btn-header-social {
+        background-color: transparent;
         flex-direction: row;
         top: 10%;
         left: 80%;
@@ -316,16 +318,42 @@ body, html {
         height: 70px;
     }
 
-    .button:nth-child(1)::before {
+    #insta{
         background: transparent;
     }
 
-    .button:nth-child(2)::before {
+    #linkedin{
         background: transparent;
     }
 
-    .button:nth-child(3)::before {
+    #github{
         background: transparent;
+    }
+
+    #insta:before{
+        background-color: transparent;
+    }
+
+    #linkedin:before{
+        background-color: transparent;
+    }
+
+    #github:before{
+        background-color: transparent;
+    }
+
+
+    #insta:active{
+        opacity: 100%;
+        background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);;
+    }
+
+    #linkedin:active{
+        background: rgb(0, 65, 130);
+    }
+
+    #github:active{
+        background: rgb(20, 34, 30);
     }
 
     .me-img img, .prog-languages img {

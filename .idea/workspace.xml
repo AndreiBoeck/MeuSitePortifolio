@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d70133-24e2-492c-9faf-534c3251fe71" name="Changes" comment="Algumas informações adicionais">
-      <change afterPath="$PROJECT_DIR$/images/DALL·E 2024-05-24 15.46.13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Patas e Pelos/code-Patas-E-Pelos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Patas e Pelos/pagBanhos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Patas e Pelos/pagFatura.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Patas e Pelos/pagPrincipal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Site MegaSena/codeSiteMegaSena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Site MegaSena/siteAposta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Site MegaSena/siteIndex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Site MegaSena/siteSorteio.png" afterDir="false" />
+    <list default="true" id="c0d70133-24e2-492c-9faf-534c3251fe71" name="Changes" comment="Mobile Version working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -35,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gsSHBRYMuCMPTAgmV0nLLNVRbZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Teste\IdeaProjects\MeuSitePortifolio\images\Site MegaSena" />
@@ -82,6 +73,9 @@
       <updated>1716484705002</updated>
       <workItem from="1716484706104" duration="5028000" />
       <workItem from="1716497175480" duration="18115000" />
+      <workItem from="1716742528298" duration="7122000" />
+      <workItem from="1716766908471" duration="1873000" />
+      <workItem from="1718629371194" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Algumas informações adicionais">
       <option name="closed" value="true" />
@@ -91,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716531545183</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mobile Version working">
+      <option name="closed" value="true" />
+      <created>1716746210539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716746210539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Algumas informações adicionais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algumas informações adicionais" />
+    <MESSAGE value="Mobile Version working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile Version working" />
   </component>
 </project>
